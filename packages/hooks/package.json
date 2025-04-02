@@ -12,7 +12,7 @@
   "types": "./lib/index.d.ts",
   "unpkg": "dist/zfleaves-hooks.js",
   "sideEffects": false,
-  "authors": "chenghuai",
+  "authors": "zfleaves",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
