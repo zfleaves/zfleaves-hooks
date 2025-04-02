@@ -9,12 +9,14 @@ export const menus = [
       'useBoolean',
       'useCookieState',
       'useDebounce',
+      'useGetState',
+      'useLocalStorageState',
       'useToggle'
     ],
   },
   {
     title: 'Effect',
-    children: ['useDebounceFn'],
+    children: ['useDebounceFn', 'useUpdateEffect'],
   },
   {
     title: '进阶',
