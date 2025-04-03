@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: '生命周期',
-    children: ['useUnmount'],
+    children: ['useUnmount', 'useUnmountedRef'],
   },
   {
     title: '状态',
@@ -11,12 +11,28 @@ export const menus = [
       'useDebounce',
       'useGetState',
       'useLocalStorageState',
-      'useToggle'
+      'useMap',
+      'usePrevious',
+      'useResetState',
+      'useSafeState',
+      'useSessionStorageState',
+      'useSet',
+      'useSetState',
+      'useToggle',
+      'useThrottle'
     ],
   },
   {
     title: 'Effect',
-    children: ['useDebounceFn', 'useUpdateEffect'],
+    children: ['useDebounceFn', 'useThrottleFn', 'useUpdateEffect'],
+  },
+  {
+    title: 'DOM',
+    children: [
+      'useClickAway',
+      'useDocumentVisibility',
+      'useEventListener',
+    ],
   },
   {
     title: '进阶',
