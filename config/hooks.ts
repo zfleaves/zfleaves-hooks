@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: '生命周期',
-    children: ['useUnmount', 'useUnmountedRef'],
+    children: ['useMount', 'useUnmount', 'useUnmountedRef'],
   },
   {
     title: '状态',
@@ -13,6 +13,7 @@ export const menus = [
       'useLocalStorageState',
       'useMap',
       'usePrevious',
+      'useRafState',
       'useResetState',
       'useSafeState',
       'useSessionStorageState',
@@ -31,7 +32,14 @@ export const menus = [
     children: [
       'useClickAway',
       'useDocumentVisibility',
+      'useDrop',
       'useEventListener',
+      'useEventTarget',
+      'useFullscreen',
+      'useHover',
+      'useInViewport',
+      'useLongPress',
+      'useMouse',
     ],
   },
   {

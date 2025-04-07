@@ -17041,14 +17041,14 @@ snapshots:
   query-string@4.3.4:
     dependencies:
       object-assign: 4.1.1
-      strict-uri-encode: 1.1.0
+      strict-uri-zfleaves: 1.1.0
 
   query-string@6.14.1:
     dependencies:
       decode-uri-component: 0.2.2
       filter-obj: 1.1.0
       split-on-first: 1.1.0
-      strict-uri-encode: 2.0.0
+      strict-uri-zfleaves: 2.0.0
 
   querystring-es3@0.2.1: {}
 
@@ -18458,9 +18458,9 @@ snapshots:
 
   stream-shift@1.0.3: {}
 
-  strict-uri-encode@1.1.0: {}
+  strict-uri-zfleaves@1.1.0: {}
 
-  strict-uri-encode@2.0.0: {}
+  strict-uri-zfleaves@2.0.0: {}
 
   string-argv@0.3.2: {}
 
