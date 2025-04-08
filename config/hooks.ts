@@ -68,4 +68,8 @@ export const menus = [
       'useReactive',
     ],
   },
+  {
+    title: 'Dev',
+    children: ['useTrackedEffect', 'useWhyDidYouUpdate'],
+  }
 ];

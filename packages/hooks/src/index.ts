@@ -43,11 +43,13 @@ import useThrottle from './useThrottle';
 import useThrottleFn from './useThrottleFn';
 import useTitle from './useTitle';
 import useToggle from './useToggle';
+import useTrackedEffect from './useTrackedEffect';
 import useUpdate from './useUpdate';
 import useUrlState from './useUrlState';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
 import useUpdateEffect from './useUpdateEffect';
+import useWhyDidYouUpdate from './useWhyDidYouUpdate';
 
 
 export {
@@ -97,9 +99,11 @@ export {
   useThrottleFn,
   useTitle,
   useToggle,
+  useTrackedEffect,
   useUrlState,
   useUpdate,
   useUnmount,
   useUnmountedRef,
-  useUpdateEffect
+  useUpdateEffect,
+  useWhyDidYouUpdate
 };

@@ -15,12 +15,12 @@ export default () => {
   // Depends on the object, because it is always the same reference, it will not be executed
   useEffect(() => {
     setStateCount(stateCount + 1);
-  }, [state]);
+  }, [state]); // state 引用永远不变 用 useCreation 创建的代理对象
 
   // Depends on the underlying data type, so as long as it changes, it will be re-executed
   useEffect(() => {
     setStateCount2(stateCount2 + 1);
-  }, [state2.count]);
+  }, [state2.count]); // state2.count是具体值，每次变化都会引起重新执行
 
   return (
     <div>
