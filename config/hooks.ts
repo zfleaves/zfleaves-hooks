@@ -61,6 +61,7 @@ export const menus = [
     title: 'Advanced',
     children: [
       'useControllableValue',
+      'useCreation',
       'useLatest',
       'useMemoizedFn'
     ],

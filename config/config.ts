@@ -6,6 +6,12 @@ export default {
     type: 'none',
     exclude: [],
   },
+  devServer: {
+    port: 9000,
+    hot: true,
+    compress: true,
+  },
+  fastRefresh: {},
   extraBabelIncludes: ['filter-obj'],
   extraBabelPlugins: [
     [

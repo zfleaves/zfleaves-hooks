@@ -3,6 +3,7 @@ import useBoolean from './useBoolean';
 import useControllableValue from './useControllableValue';
 import useClickAway from './useClickAway';
 import useCookieState from './useCookieState';
+import useCreation from './useCreation';
 import useDebounce from './useDebounce';
 import useDebounceFn from './useDebounceFn';
 import useDocumentVisibility from './useDocumentVisibility';
@@ -54,6 +55,7 @@ export {
   useControllableValue,
   useClickAway,
   useCookieState,
+  useCreation,
   useDebounce,
   useDebounceFn,
   useDocumentVisibility,
