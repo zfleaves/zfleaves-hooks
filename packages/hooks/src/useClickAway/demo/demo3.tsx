@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 支持多个 DOM 对象
- * desc.zh-CN: 支持传入多个目标对象。
+ * title: 支持多个 DOM 对象
+ * desc: 支持传入多个目标对象。
  */
 
 import React, { useState, useRef } from 'react';

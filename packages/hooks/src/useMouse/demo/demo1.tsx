@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 基础用法
- * desc.zh-CN: 获取鼠标位置。
+ * title: 基础用法
+ * desc: 获取鼠标位置。
  */
 
 import { useMouse } from 'zfleaves-hooks';

@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 与其它全屏操作共存
- * desc.zh-CN: 元素的全屏情况可能被其它脚本修改，不用担心，zfleaves-hooks 可以与它们共存。
+ * title: 与其它全屏操作共存
+ * desc: 元素的全屏情况可能被其它脚本修改，不用担心，zfleaves-hooks 可以与它们共存。
  */
 
 import React, { useRef } from 'react';

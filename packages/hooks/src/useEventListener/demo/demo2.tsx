@@ -1,7 +1,7 @@
 /**
  *
- * title.zh-CN: 监听 keydown 事件
- * desc.zh-CN: 按下键盘查看效果。
+ * title: 监听 keydown 事件
+ * desc: 按下键盘查看效果。
  */
 
 import React, { useState } from 'react';

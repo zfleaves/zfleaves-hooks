@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 基础用法
- * desc.zh-CN: 强制组件重新渲染。
+ * title: 基础用法
+ * desc: 强制组件重新渲染。
  */
 
 import React from 'react';

@@ -1,5 +1,5 @@
 /**
- * title.zh-CN: 基础用法
+ * title: 基础用法
  */
 
 import { useMutationObserver } from 'zfleaves-hooks';

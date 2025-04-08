@@ -1,7 +1,7 @@
 /**
 
- * title.zh-CN: 传入 DOM 元素
- * desc.zh-CN: useSize 可以接收 dom，在 SSR 场景可以传入函数 `() => dom`
+ * title: 传入 DOM 元素
+ * desc: useSize 可以接收 dom，在 SSR 场景可以传入函数 `() => dom`
  */
 
 import React from 'react';

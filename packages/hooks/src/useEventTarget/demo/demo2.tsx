@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 自定义转换函数
- * desc.zh-CN: 只能输入数字的 input 组件
+ * title: 自定义转换函数
+ * desc: 只能输入数字的 input 组件
  */
 
 import React from 'react';

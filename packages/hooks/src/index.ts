@@ -9,6 +9,7 @@ import useDebounceFn from './useDebounceFn';
 import useDocumentVisibility from './useDocumentVisibility';
 import useDrag from './useDrag';
 import useDrop from './useDrop';
+import useEventEmitter from './useEventEmitter';
 import useEventListener from './useEventListener';
 import useEventTarget from './useEventTarget';
 import useExternal from './useExternal';
@@ -29,6 +30,7 @@ import useMouse from './useMouse';
 import useMount from './useMount';
 import usePrevious from './usePrevious';
 import useRafState from './useRafState';
+import useReactive from './useReactive';
 import useResetState from './useResetState';
 import { configResponsive, useResponsive } from './useResponsive';
 import useSafeState from './useSafeState';
@@ -61,6 +63,7 @@ export {
   useDocumentVisibility,
   useDrag,
   useDrop,
+  useEventEmitter,
   useEventListener,
   useEventTarget,
   useExternal,
@@ -80,6 +83,7 @@ export {
   useMouse,
   useMount,
   usePrevious,
+  useReactive,
   useRafState,
   useResetState,
   useResponsive,

@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 获取鼠标相对于元素的位置
- * desc.zh-CN: 通过传入目标元素，可以获取鼠标相对于元素的位置。
+ * title: 获取鼠标相对于元素的位置
+ * desc: 通过传入目标元素，可以获取鼠标相对于元素的位置。
  */
 
 import React, { useRef } from 'react';

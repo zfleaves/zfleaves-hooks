@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 支持传入多个事件名称
- * desc.zh-CN: 设置了多个事件，你可以试试用鼠标左键或者右键。
+ * title: 支持传入多个事件名称
+ * desc: 设置了多个事件，你可以试试用鼠标左键或者右键。
  */
 
 import React, { useState, useRef } from 'react';

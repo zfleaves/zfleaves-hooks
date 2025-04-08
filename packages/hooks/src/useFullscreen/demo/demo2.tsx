@@ -1,5 +1,5 @@
 /**
- * title.zh-CN: 页面全屏
+ * title: 页面全屏
  */
 
 import React, { useRef } from 'react';

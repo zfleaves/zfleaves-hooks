@@ -62,8 +62,10 @@ export const menus = [
     children: [
       'useControllableValue',
       'useCreation',
+      'useEventEmitter',
       'useLatest',
-      'useMemoizedFn'
+      'useMemoizedFn',
+      'useReactive',
     ],
   },
 ];

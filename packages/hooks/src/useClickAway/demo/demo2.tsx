@@ -1,6 +1,6 @@
 /**
- * title.zh-CN: 支持传入 DOM
- * desc.zh-CN: 支持直接传入 DOM 对象或 function。
+ * title: 支持传入 DOM
+ * desc: 支持直接传入 DOM 对象或 function。
  */
 
 import React, { useState } from 'react';
