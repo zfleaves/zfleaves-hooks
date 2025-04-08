@@ -39,6 +39,7 @@ import useThrottle from './useThrottle';
 import useThrottleFn from './useThrottleFn';
 import useTitle from './useTitle';
 import useToggle from './useToggle';
+import useUpdate from './useUpdate';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
 import useUpdateEffect from './useUpdateEffect';
@@ -87,6 +88,7 @@ export {
   useThrottleFn,
   useTitle,
   useToggle,
+  useUpdate,
   useUnmount,
   useUnmountedRef,
   useUpdateEffect
