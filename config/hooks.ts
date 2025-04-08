@@ -1,14 +1,15 @@
 export const menus = [
   {
-    title: '生命周期',
+    title: 'LifeCycle',
     children: ['useMount', 'useUnmount', 'useUnmountedRef'],
   },
   {
-    title: '状态',
+    title: 'State',
     children: [
       'useSetState',
       'useBoolean',
       'useToggle',
+      'useUrlState',
       'useCookieState',
       'useLocalStorageState',
       'useSessionStorageState',
@@ -35,30 +36,31 @@ export const menus = [
   {
     title: 'DOM',
     children: [
+      'useEventListener',
       'useClickAway',
       'useDocumentVisibility',
       'useDrop',
-      'useEventListener',
       'useEventTarget',
       'useExternal',
+      'useTitle',
       'useFavicon',
       'useFullscreen',
       'useHover',
+      'useMutationObserver',
       'useInViewport',
+      'useKeyPress',
       'useLongPress',
       'useMouse',
-      'useKeyPress',
-      'useMutationObserver',
       'useResponsive',
       'useScroll',
       'useSize',
-      'useTitle',
       'useFocusWithin',
     ],
   },
   {
-    title: '进阶',
+    title: 'Advanced',
     children: [
+      'useControllableValue',
       'useLatest',
       'useMemoizedFn'
     ],

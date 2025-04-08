@@ -6,9 +6,17 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/zfleaves-hooks/',
-  history: { type: 'hash' },
+  extraBabelIncludes: ['filter-obj'],
   extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      'antd',
+    ],
     [
       'babel-plugin-import',
       {
@@ -18,6 +26,8 @@ export default {
       'fusion',
     ],
   ],
+  publicPath: '/zfleaves-hooks/',
+  history: { type: 'hash' },
   title: 'zfleaves hooks',
   mode: 'site',
   favicon: '/zfleaves-hooks/logo.png',

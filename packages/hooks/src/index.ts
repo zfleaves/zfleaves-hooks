@@ -1,5 +1,6 @@
 import { createUpdateEffect } from './createUpdateEffect';
 import useBoolean from './useBoolean';
+import useControllableValue from './useControllableValue';
 import useClickAway from './useClickAway';
 import useCookieState from './useCookieState';
 import useDebounce from './useDebounce';
@@ -40,6 +41,7 @@ import useThrottleFn from './useThrottleFn';
 import useTitle from './useTitle';
 import useToggle from './useToggle';
 import useUpdate from './useUpdate';
+import useUrlState from './useUrlState';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
 import useUpdateEffect from './useUpdateEffect';
@@ -49,6 +51,7 @@ export {
   createUpdateEffect,
   configResponsive,
   useBoolean,
+  useControllableValue,
   useClickAway,
   useCookieState,
   useDebounce,
@@ -88,6 +91,7 @@ export {
   useThrottleFn,
   useTitle,
   useToggle,
+  useUrlState,
   useUpdate,
   useUnmount,
   useUnmountedRef,
