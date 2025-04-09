@@ -27,9 +27,18 @@ export const menus = [
   {
     title: 'Effect',
     children: [
+      'useUpdateEffect',
+      'useUpdateLayoutEffect',
+      'useAsyncEffect',
+      'useDebounceEffect',
       'useDebounceFn', 
       'useThrottleFn', 
-      'useUpdateEffect',
+      'useThrottleEffect',
+      'useDeepCompareEffect',
+      'useDeepCompareLayoutEffect',
+      'useInterval',
+      'useRafInterval',
+      'useTimeout',
       'useUpdate'
     ],
   },

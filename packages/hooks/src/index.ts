@@ -1,11 +1,15 @@
 import { createUpdateEffect } from './createUpdateEffect';
+import useAsyncEffect from './useAsyncEffect';
 import useBoolean from './useBoolean';
 import useControllableValue from './useControllableValue';
 import useClickAway from './useClickAway';
 import useCookieState from './useCookieState';
 import useCreation from './useCreation';
 import useDebounce from './useDebounce';
+import useDebounceEffect from './useDebounceEffect';
 import useDebounceFn from './useDebounceFn';
+import useDeepCompareEffect from './useDeepCompareEffect';
+import useDeepCompareLayoutEffect from './useDeepCompareLayoutEffect';
 import useDocumentVisibility from './useDocumentVisibility';
 import useDrag from './useDrag';
 import useDrop from './useDrop';
@@ -18,6 +22,7 @@ import useFocusWithin from './useFocusWithin';
 import useFullscreen from './useFullscreen';
 import useGetState from './useGetState';
 import useHover from './useHover';
+import useInterval from './useInterval';
 import useInViewport from './useInViewport';
 import useKeyPress from './useKeyPress';
 import useLatest from './useLatest';
@@ -29,6 +34,7 @@ import useMutationObserver from './useMutationObserver';
 import useMouse from './useMouse';
 import useMount from './useMount';
 import usePrevious from './usePrevious';
+import useRafInterval from './useRafInterval';
 import useRafState from './useRafState';
 import useReactive from './useReactive';
 import useResetState from './useResetState';
@@ -40,7 +46,9 @@ import useSet from './useSet';
 import useSetState from './useSetState';
 import useSize from './useSize';
 import useThrottle from './useThrottle';
+import useThrottleEffect from './useThrottleEffect';
 import useThrottleFn from './useThrottleFn';
+import useTimeout from './useTimeout';
 import useTitle from './useTitle';
 import useToggle from './useToggle';
 import useTrackedEffect from './useTrackedEffect';
@@ -48,6 +56,7 @@ import useUpdate from './useUpdate';
 import useUrlState from './useUrlState';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
+import useUpdateLayoutEffect from './useUpdateLayoutEffect';
 import useUpdateEffect from './useUpdateEffect';
 import useWhyDidYouUpdate from './useWhyDidYouUpdate';
 
@@ -55,13 +64,17 @@ import useWhyDidYouUpdate from './useWhyDidYouUpdate';
 export {
   createUpdateEffect,
   configResponsive,
+  useAsyncEffect,
   useBoolean,
   useControllableValue,
   useClickAway,
   useCookieState,
   useCreation,
   useDebounce,
+  useDebounceEffect,
   useDebounceFn,
+  useDeepCompareEffect,
+  useDeepCompareLayoutEffect,
   useDocumentVisibility,
   useDrag,
   useDrop,
@@ -74,6 +87,7 @@ export {
   useFullscreen,
   useGetState,
   useHover,
+  useInterval,
   useInViewport,
   useKeyPress,
   useLatest,
@@ -85,6 +99,7 @@ export {
   useMouse,
   useMount,
   usePrevious,
+  useRafInterval,
   useReactive,
   useRafState,
   useResetState,
@@ -96,7 +111,9 @@ export {
   useSetState,
   useSize,
   useThrottle,
+  useThrottleEffect,
   useThrottleFn,
+  useTimeout,
   useTitle,
   useToggle,
   useTrackedEffect,
@@ -105,5 +122,6 @@ export {
   useUnmount,
   useUnmountedRef,
   useUpdateEffect,
+  useUpdateLayoutEffect,
   useWhyDidYouUpdate
 };
