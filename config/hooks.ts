@@ -39,6 +39,8 @@ export const menus = [
       'useInterval',
       'useRafInterval',
       'useTimeout',
+      'useRafTimeout',
+      'useLockFn',
       'useUpdate'
     ],
   },

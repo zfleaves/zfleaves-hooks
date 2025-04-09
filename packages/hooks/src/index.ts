@@ -27,6 +27,7 @@ import useInViewport from './useInViewport';
 import useKeyPress from './useKeyPress';
 import useLatest from './useLatest';
 import useLocalStorageState from './useLocalStorageState';
+import useLockFn from './useLockFn';
 import useLongPress from './useLongPress';
 import useMap from './useMap';
 import useMemoizedFn from './useMemoizedFn';
@@ -36,6 +37,7 @@ import useMount from './useMount';
 import usePrevious from './usePrevious';
 import useRafInterval from './useRafInterval';
 import useRafState from './useRafState';
+import useRafTimeout from './useRafTimeout';
 import useReactive from './useReactive';
 import useResetState from './useResetState';
 import { configResponsive, useResponsive } from './useResponsive';
@@ -92,6 +94,7 @@ export {
   useKeyPress,
   useLatest,
   useLocalStorageState,
+  useLockFn,
   useLongPress,
   useMap,
   useMemoizedFn,
@@ -102,6 +105,7 @@ export {
   useRafInterval,
   useReactive,
   useRafState,
+  useRafTimeout,
   useResetState,
   useResponsive,
   useSafeState,
