@@ -39,6 +39,7 @@ import useRafInterval from './useRafInterval';
 import useRafState from './useRafState';
 import useRafTimeout from './useRafTimeout';
 import useReactive from './useReactive';
+import useRequest, { clearCache } from './useRequest';
 import useResetState from './useResetState';
 import { configResponsive, useResponsive } from './useResponsive';
 import useSafeState from './useSafeState';
@@ -64,6 +65,7 @@ import useWhyDidYouUpdate from './useWhyDidYouUpdate';
 
 
 export {
+  useRequest,
   createUpdateEffect,
   configResponsive,
   useAsyncEffect,
@@ -88,6 +90,7 @@ export {
   useFocusWithin,
   useFullscreen,
   useGetState,
+  clearCache,
   useHover,
   useInterval,
   useInViewport,

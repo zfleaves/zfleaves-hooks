@@ -199,6 +199,8 @@ class Fetch<TData, TParams extends any[]> {
     /**
      * 修改数据
      * @param data - 新数据或数据修改函数
+     * setState 更新 Fetch 实例的 state 
+     * 调用 subscribe (也就是 update 函数) 触发组件的重新渲染
      */
     mutate(data?: TData | ((oldData?: TData) => TData | undefined)) {
         const targetData = isFunction(data) ? data(this.state.data) : data;

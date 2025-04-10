@@ -39,7 +39,7 @@ function useRequestImplement<TData, TParams extends any[]>(
         return new Fetch<TData, TParams>(
             serviceRef,
             fetchOptions,
-            update,
+            update,  // 传入 update 函数
             Object.assign({}, ...initState),
         );
     }, []);
