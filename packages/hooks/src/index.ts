@@ -34,6 +34,7 @@ import useMemoizedFn from './useMemoizedFn';
 import useMutationObserver from './useMutationObserver';
 import useMouse from './useMouse';
 import useMount from './useMount';
+import usePagination from './usePagination';
 import usePrevious from './usePrevious';
 import useRafInterval from './useRafInterval';
 import useRafState from './useRafState';
@@ -104,6 +105,7 @@ export {
   useMutationObserver,
   useMouse,
   useMount,
+  usePagination,
   usePrevious,
   useRafInterval,
   useReactive,

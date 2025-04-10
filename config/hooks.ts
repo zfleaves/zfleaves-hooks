@@ -20,6 +20,12 @@ export const menus = [
     children: ['useMount', 'useUnmount', 'useUnmountedRef'],
   },
   {
+    title: 'Scene',
+    children: [
+       'usePagination' 
+    ]
+  },
+  {
     title: 'State',
     children: [
       'useSetState',
